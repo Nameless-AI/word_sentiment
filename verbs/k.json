@@ -1,0 +1,42 @@
+{
+  "kiss": {
+    "effects": [
+      {
+        "wcat": 5,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "good",
+        "effect": 1
+      },
+      {
+        "wcat": 5,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "good",
+        "effect": 1
+      }
+    ]
+  },
+  "kill": {
+    "effects": [
+      {
+        "wcat": 8,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "working",
+        "final_state": "dead",
+        "effect": -1
+      },
+      {
+        "wcat": 5,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "alive",
+        "final_state": "dead",
+        "effect": -1
+      }
+    ]
+  }
+}

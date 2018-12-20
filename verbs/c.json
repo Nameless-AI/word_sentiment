@@ -1,0 +1,34 @@
+{
+  "come": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 2,
+        "expected_state": "s_l",
+        "final_state": "o_l",
+        "effect": 3
+      }
+    ]
+  },
+  "cut": {
+    "effects": [
+      {
+        "wcat": 8,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "uncut",
+        "final_state": "cut",
+        "effect": 0
+      },
+      {
+        "wcat": 5,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "uncut",
+        "final_state": "cut",
+        "effect": -1
+      }
+    ]
+  }
+}
