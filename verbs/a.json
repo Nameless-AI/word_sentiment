@@ -1,0 +1,642 @@
+{
+  "accept": {
+    "effects": [
+      {
+        "wcat": 15,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "unaccepted",
+        "final_state": "accepted",
+        "effect": 1
+      },
+      {
+        "wcat": 5,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": "unaccepted",
+        "final_state": "accepted",
+        "effect": 1
+      }
+    ]
+  },
+  "ache": {
+    "effects": [
+      {
+        "wcat": 5,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "aching",
+        "effect": -1
+      }
+    ]
+  },
+  "acknowledge": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 0
+      }
+    ]
+  },
+  "act": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "acting",
+        "effect": 1
+      }
+    ]
+  },
+  "add": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 14,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 0
+      },
+      {
+        "wcat": 15,
+        "is_subject": false,
+        "modifies": 3,
+        "expected_state": null,
+        "final_state": "joyful",
+        "effect": 1
+      }
+    ]
+  },
+  "admire": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "admiring",
+        "effect": 0
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "admired",
+        "effect": 1
+      },
+      {
+        "wcat": 14,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "admired",
+        "effect": 0
+      }
+    ]
+  },
+  "admit": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 0
+      }
+    ]
+  },
+  "admonish": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "admonished",
+        "effect": -1
+      }
+    ]
+  },
+  "advise": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 1
+      }
+    ]
+  },
+  "adopt": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 15,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "adopted",
+        "effect": 0
+      }
+    ]
+  },
+  "affirm": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "bold",
+        "final_state": "bolder",
+        "effect": 1
+      }
+    ]
+  },
+  "afford": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 3
+      }
+    ]
+  },
+  "agree": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 3
+      }
+    ]
+  },
+  "ail": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "troubled",
+        "effect": -1
+      },
+      {
+        "wcat": 4,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "sick",
+        "effect": -1
+      }
+    ]
+  },
+  "alert": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 1
+      }
+    ]
+  },
+  "allege": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "bold",
+        "final_state": "bolder",
+        "effect": 1
+      }
+    ]
+  },
+  "allow": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 3
+      },
+      {
+        "wcat": 5,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "happy",
+        "effect": 1
+      }
+    ]
+  },
+  "allude": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      }
+    ]
+  },
+  "amuse": {
+    "effects": [
+      {
+        "wcat": 5,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 5,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "amused",
+        "effect": 1
+      }
+    ]
+  },
+  "analyze": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 0
+      }      
+    ]
+  },
+  "announce": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "bold",
+        "final_state": "bolder",
+        "effect": 1
+      }      
+    ]
+  },
+  "annoy": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 5,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "annoyed",
+        "effect": -1
+      }
+    ]
+  },
+  "answer": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      }
+    ]
+  },
+  "apologize": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "good",
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 3,
+        "expected_state": null,
+        "final_state": "happy",
+        "effect": 1
+      }
+    ]
+  },
+  "appeal": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "good",
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 3,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      }
+    ]
+  },
+  "appear": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 2,
+        "expected_state": "s_l",
+        "final_state": "o_l",
+        "effect": 3
+      }
+    ]
+  },
+  "applaud": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "happy",
+        "effect": 1
+      }
+    ]
+  },
+  "appreciate": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "happy",
+        "effect": 1
+      }
+    ]
+  },
+  "approve": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "happy",
+        "effect": 1
+      },
+      {
+        "wcat": 10,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "approved",
+        "effect": 1
+      }
+    ]
+  },
+  "argue": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 3
+      }
+    ]
+  },
+  "arrange": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": null,
+        "effect": 1
+      },
+      {
+        "wcat": 10,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "arranged",
+        "effect": 1
+      }
+    ]
+  },
+  "arrest": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "good",
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "arrested",
+        "effect": -1
+      }
+    ]
+  },
+  "arrive": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 2,
+        "expected_state": "s_l",
+        "final_state": "o_l",
+        "effect": 3
+      }
+    ]
+  },
+  "articulate": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "informed",
+        "effect": 0
+      }
+    ]
+  },
+  "ask": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "bold",
+        "final_state": "bolder",
+        "effect": 1
+      }
+    ]
+  },
+  "assert": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": "bold",
+        "final_state": "bolder",
+        "effect": 1
+      }
+    ]
+  },
+  "assure": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "hoping",
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": "doubting",
+        "final_state": "reassured",
+        "effect": 1
+      }
+    ]
+  },
+  "attach": {
+    "effects": [
+      {
+        "wcat": 1,
+        "is_subject": true,
+        "modifies": 1,
+        "expected_state": null,
+        "final_state": "hoping",
+        "effect": 1
+      },
+      {
+        "wcat": 1,
+        "is_subject": false,
+        "modifies": 1,
+        "expected_state": "doubting",
+        "final_state": "reassured",
+        "effect": 1
+      }
+    ]
+  }
+}

@@ -18,9 +18,9 @@ OR here: https://github.com/datmt/English-Verbs/blob/master/verbsList
           {
             wcat: integer,//1=Person,2=Place,4=Animal,8=Thing,
             is_subject: boolean,
-            modifies: integer,//1=state,2=location
+            modifies: integer,//1=state,2=location,3=pobj (preposition object) state
             expected_state: string,//nullable qualifier/location (adjective), direction or "o_l = object location or "s_l" = subject location
-            final_state: string,//nullable qualifier/location (adjective), o_l = object location, s_l = subject location
+            final_state: string,//nullable qualifier/location (adjective), o_l = object location, s_l = subject location, p_l = preposition object location
             sentimental_effect: integer,//3=object sentiment,2=subject sentiment,1=positive,0=neutral,-1=negative,-2=negated subject sentiment,-3=negated object sentiment
           },
           ...
@@ -42,3 +42,9 @@ OR here: https://github.com/datmt/English-Verbs/blob/master/verbsList
         }]
       }
     }
+    
+## Notes:
+
+ - `wcat` integer can be an added combination of noun categories, e.g. 5 = 1 + 4 = Person + Animal
+ - You cannot have is_subject false with wcat 2 or 8 obviously because only animal/people have feelings (as of today)
+ - Be careful when creating effects for sentimentally weighted actions, example. It is not good to annoy someone but it is good to arrest them. The difference is very thin, for some people it will feel good annoying someone, for some people it will not, therefore default effect should be neutral. For 'every' authoritative person out there however, it feels good to arrest someone.
